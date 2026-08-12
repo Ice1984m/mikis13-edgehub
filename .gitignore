@@ -1,0 +1,7 @@
+
+# Mikis13 secrets
+.env
+.env.*
+*.secret
+secrets.env
+data/private/
