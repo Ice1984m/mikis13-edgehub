@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="nl">
+
+<head>
+
+<meta charset="utf-8">
+
+<meta
+ name="viewport"
+ content="width=device-width,initial-scale=1">
+
+<meta
+ name="theme-color"
+ content="#6f2cff">
+
+<title>Mikis13 EdgeHub</title>
+
+<link
+ rel="stylesheet"
+ href="./assets/css/style.css">
+
+<link
+ rel="manifest"
+ href="./manifest.webmanifest">
+
+</head>
+
+<body>
+
+<div class="cyber-grid"></div>
+
+<header class="hero">
+
+<div class="logo">
+MIKIS13
+</div>
+
+<p class="subtitle">
+EDGEHUB • TERMUX • GITHUB • WEB
+</p>
+
+<div class="online">
+<span></span>
+SYSTEM ONLINE
+</div>
+
+<nav>
+
+<a href="./">
+HOME
+</a>
+
+<a href="./blog/">
+BLOG
+</a>
+
+<a href="./status/">
+STATUS
+</a>
+
+<a href="#payment">
+BETALEN
+</a>
+
+<a
+ href="https://github.com/Ice1984m/mikis13-edgehub">
+GITHUB
+</a>
+
+</nav>
+
+</header>
+
+<main>
+
+<section class="panel">
+
+<h1>
+Mikis13 EdgeHub
+</h1>
+
+<p>
+Eén centrale omgeving voor website,
+GitHub deployments, Termux-beheer,
+projectstatus en betalingen.
+</p>
+
+</section>
+
+<section class="cards">
+
+<article class="card">
+
+<h2>GitHub Pages</h2>
+
+<p>
+Gratis statische HTTPS-hosting via GitHub.
+</p>
+
+<strong class="green">
+ONLINE
+</strong>
+
+</article>
+
+<article class="card">
+
+<h2>Termux Control</h2>
+
+<p>
+Start, test, deploy en controleer de website
+rechtstreeks vanaf Android.
+</p>
+
+</article>
+
+<article class="card">
+
+<h2>PWA</h2>
+
+<p>
+Offline cache en installatie als web-app
+op ondersteunde Android-browsers.
+</p>
+
+</article>
+
+<article class="card">
+
+<h2>Build</h2>
+
+<p id="buildInfo">
+Buildinformatie laden...
+</p>
+
+</article>
+
+</section>
+
+<section
+ id="payment"
+ class="panel">
+
+<h2>
+Betaling
+</h2>
+
+<p>
+Veilige betaling wordt afgehandeld
+op de betaalpagina van de betaalprovider.
+</p>
+
+<a
+ id="paymentButton"
+ class="payment disabled"
+ href="#">
+
+BETALING NOG NIET INGESTELD
+
+</a>
+
+<p
+ id="paymentStatus"
+ class="small">
+
+Voeg eerst je Revolut Payment Link toe
+via het Termux-commando.
+
+</p>
+
+</section>
+
+<section class="panel">
+
+<h2>
+Live status
+</h2>
+
+<p>
+<span class="dot"></span>
+Website actief
+</p>
+
+<p>
+Controle:
+<strong id="lastCheck">
+laden...
+</strong>
+</p>
+
+</section>
+
+</main>
+
+<footer>
+
+Mikis13 ©
+<span id="year"></span>
+
+</footer>
+
+<script src="./assets/js/config.js"></script>
+<script src="./assets/js/app.js"></script>
+
+</body>
+</html>

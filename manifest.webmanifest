@@ -1,0 +1,9 @@
+{
+  "name":"Mikis13 EdgeHub",
+  "short_name":"Mikis13",
+  "start_url":"/mikis13-edgehub/",
+  "scope":"/mikis13-edgehub/",
+  "display":"standalone",
+  "background_color":"#050308",
+  "theme_color":"#6f2cff"
+}
